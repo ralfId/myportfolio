@@ -52,6 +52,28 @@
 
 
 
+  /**
+   * Scrool with ofset on links with a class name .scrollto
+//    */
+// window.addEventListener('change',()=>{
+//   on('click', '.scrollto', function(e) {
+//     if (select(this.hash)) {
+//       e.preventDefault()
+
+//       let body = select('body')
+//       if (body.classList.contains('mobile-nav-active')) {
+//         body.classList.remove('mobile-nav-active')
+//         let navbarToggle = select('.mobile-nav-toggle')
+//         navbarToggle.classList.toggle('bi-list')
+//         navbarToggle.classList.toggle('bi-x')
+//       }
+//       scrollto(this.hash)
+//     }
+//   }, true)
+// })
+
+ 
+
 
   /**
    * Initiate portfolio lightbox 

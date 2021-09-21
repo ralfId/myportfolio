@@ -36,7 +36,7 @@ export const Nav = () => {
           </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
-              <li ><Link to="/index" className="nav-link  active" onClick={HideMenu}><i className="bx bx-home"></i> <span>Home</span></Link></li>
+              <li onClick={HideMenu}><Link to="/index" className="nav-link  active"><i className="bx bx-home"></i> <span>Home</span></Link></li>
               <li><Link to="/about" className="nav-link "><i className="bx bx-user"></i> <span>About</span></Link></li>
               <li><Link to="/portfolio" className="nav-link "><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
             </ul>

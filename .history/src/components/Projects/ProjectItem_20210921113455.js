@@ -11,7 +11,7 @@ export const ProjectItem = ({ Id, Name, image, Description }) => {
                     <img src={image[0]} className="img-fluid" alt="" />
                 </div>
                 <div className="d-flex justify-content-between m-2 align-content-center">
-                    <h5 className="card-title">{Name}</h5>
+                    <h5 className="card-title">{Name}({Description.descTitle})</h5>
                     <NavLink to={`./item/${Id}`} ><i className="bi bi-plus-circle" style={{ "fontSize": "1.5rem" }}></i></NavLink>
                 </div>
                 

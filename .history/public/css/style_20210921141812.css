@@ -87,7 +87,9 @@ h6 {
     background: #040b14;
     overflow-y: auto;
 }
-
+#header .navbar{
+    left: 0;
+}
 
 #header .profile img {
     margin: 15px auto;
@@ -141,7 +143,6 @@ h6 {
     #header {
         left: -300px;
     }
- 
     #main {
         margin-left: 0;
     }

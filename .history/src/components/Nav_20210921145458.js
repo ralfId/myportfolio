@@ -9,12 +9,9 @@ export const Nav = () => {
    setIsClicked(!isClicked);
 
    let body = document.querySelector('body');
-   body.classList.contains('mobile-nav-active') ?? body.classList.remove('mobile-nav-active')
- }
-
- const HideMenu =()=>{
-  let body = document.querySelector('body');
-  body.classList.contains('mobile-nav-active') ?? body.classList.remove('mobile-nav-active')
+   if (!isClicked) {
+     body.classList.remove('mobile-nav-active')
+   }
  }
   return (
     <>
@@ -36,7 +33,7 @@ export const Nav = () => {
           </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
-              <li ><Link to="/index" className="nav-link  active" onClick={HideMenu}><i className="bx bx-home"></i> <span>Home</span></Link></li>
+              <li id="#home"><Link to="/index" className="nav-link  active"><i className="bx bx-home"></i> <span>Home</span></Link></li>
               <li><Link to="/about" className="nav-link "><i className="bx bx-user"></i> <span>About</span></Link></li>
               <li><Link to="/portfolio" className="nav-link "><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
             </ul>

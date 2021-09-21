@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 
-export const ProjectItem = ({ Id, Name, image, Description }) => {
+export const ProjectItem = ({ Id, Name, image }) => {
 
     return (
 
@@ -14,7 +14,6 @@ export const ProjectItem = ({ Id, Name, image, Description }) => {
                     <h5 className="card-title">{Name}</h5>
                     <NavLink to={`./item/${Id}`} ><i className="bi bi-plus-circle" style={{ "fontSize": "1.5rem" }}></i></NavLink>
                 </div>
-                
             </div>
         </div>
     )

@@ -7,21 +7,13 @@ export const Nav = () => {
 
  const changeState=()=>{
    setIsClicked(!isClicked);
-
-   let body = document.querySelector('body');
-   body.classList.contains('mobile-nav-active') ?? body.classList.remove('mobile-nav-active')
- }
-
- const HideMenu =()=>{
-  let body = document.querySelector('body');
-  body.classList.contains('mobile-nav-active') ?? body.classList.remove('mobile-nav-active')
  }
   return (
     <>
 
       <i className={`bi bi-list mobile-nav-toggle d-xl-none ${!isClicked ? 'bi-list' : 'bi-x'}`} onClick={changeState}></i>
 
-      <header id="header" >
+      <header id="header" className={`${isClicked ?? 'navbar'}`}>
         <div className="d-flex flex-column">
 
           <div className="profile">
@@ -36,7 +28,7 @@ export const Nav = () => {
           </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
-              <li ><Link to="/index" className="nav-link  active" onClick={HideMenu}><i className="bx bx-home"></i> <span>Home</span></Link></li>
+              <li id="#home"><Link to="/index" className="nav-link  active"><i className="bx bx-home"></i> <span>Home</span></Link></li>
               <li><Link to="/about" className="nav-link "><i className="bx bx-user"></i> <span>About</span></Link></li>
               <li><Link to="/portfolio" className="nav-link "><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
             </ul>
