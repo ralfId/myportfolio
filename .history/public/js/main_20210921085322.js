@@ -63,13 +63,13 @@
   /**
    * Scrolls to an element with header offset
    */
-  // const scrollto = (el) => {
-  //   let elementPos = select(el).offsetTop
-  //   window.scrollTo({
-  //     top: elementPos,
-  //     behavior: 'smooth'
-  //   })
-  // }
+  const scrollto = (el) => {
+    let elementPos = select(el).offsetTop
+    window.scrollTo({
+      top: elementPos,
+      behavior: 'smooth'
+    })
+  }
 
   /**
    * Back to top button
@@ -101,72 +101,72 @@
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
-// window.addEventListener('load',()=>{
-//   on('click', '.scrollto', function(e) {
-//     if (select(this.hash)) {
-//       e.preventDefault()
+window.addEventListener('load',()=>{
+  on('click', '.scrollto', function(e) {
+    if (select(this.hash)) {
+      e.preventDefault()
 
-//       let body = select('body')
-//       if (body.classList.contains('mobile-nav-active')) {
-//         body.classList.remove('mobile-nav-active')
-//         let navbarToggle = select('.mobile-nav-toggle')
-//         navbarToggle.classList.toggle('bi-list')
-//         navbarToggle.classList.toggle('bi-x')
-//       }
-//       scrollto(this.hash)
-//     }
-//   }, true)
-// });
+      let body = select('body')
+      if (body.classList.contains('mobile-nav-active')) {
+        body.classList.remove('mobile-nav-active')
+        let navbarToggle = select('.mobile-nav-toggle')
+        navbarToggle.classList.toggle('bi-list')
+        navbarToggle.classList.toggle('bi-x')
+      }
+      scrollto(this.hash)
+    }
+  }, true)
+});
 
   /**
    * Scroll with ofset on page load with hash links in the url
    */
-  // window.addEventListener('load', () => {
-  //   if (window.location.hash) {
-  //     if (select(window.location.hash)) {
-  //       scrollto(window.location.hash)
-  //     }
-  //   }
-  // });
+  window.addEventListener('load', () => {
+    if (window.location.hash) {
+      if (select(window.location.hash)) {
+        scrollto(window.location.hash)
+      }
+    }
+  });
 
   /**
    * Hero type effect
    */
 
-  // window.addEventListener('load', () =>{
-  //   const typed = select('.typed')
-  //   if (typed) {
-  //     let typed_strings = typed.getAttribute('data-typed-items')
-  //     typed_strings = typed_strings.split(',')
-  //     new Typed('.typed', {
-  //       strings: typed_strings,
-  //       loop: true,
-  //       typeSpeed: 100,
-  //       backSpeed: 50,
-  //       backDelay: 2000
-  //     });
-  //   }
-  // });
+  window.addEventListener('load', () =>{
+    const typed = select('.typed')
+    if (typed) {
+      let typed_strings = typed.getAttribute('data-typed-items')
+      typed_strings = typed_strings.split(',')
+      new Typed('.typed', {
+        strings: typed_strings,
+        loop: true,
+        typeSpeed: 100,
+        backSpeed: 50,
+        backDelay: 2000
+      });
+    }
+  });
  
 
   /**
    * Skills animation
    */
-  // window.addEventListener('load', ()=>{
-  //   let skilsContent = select('.skills-content');
-  //   if (skilsContent) {
-  //     new Waypoint({
-  //       element: skilsContent,
-  //       offset: '80%',
-  //       handler: function(direction) {
-  //         let progress = select('.progress .progress-bar', true);
-  //         progress.forEach((el) => {
-  //           el.style.width = el.getAttribute('aria-valuenow') + '%'
-  //         });
-  //       }
-  //     })
-  //   }
-  // });
+  window.addEventListener('load', ()=>{
+    let skilsContent = select('.skills-content');
+    if (skilsContent) {
+      new Waypoint({
+        element: skilsContent,
+        offset: '80%',
+        handler: function(direction) {
+          let progress = select('.progress .progress-bar', true);
+          progress.forEach((el) => {
+            el.style.width = el.getAttribute('aria-valuenow') + '%'
+          });
+        }
+      })
+    }
+  });
  
 
   /**
@@ -209,48 +209,48 @@
   /**
    * Portfolio details slider
    */
-  // new Swiper('.portfolio-details-slider', {
-  //   speed: 400,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   }
-  // });
+  new Swiper('.portfolio-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
 
   /**
    * Testimonials slider
    */
-  // new Swiper('.testimonials-slider', {
-  //   speed: 600,
-  //   loop: true,
-  //   autoplay: {
-  //     delay: 5000,
-  //     disableOnInteraction: false
-  //   },
-  //   slidesPerView: 'auto',
-  //   pagination: {
-  //     el: '.swiper-pagination',
-  //     type: 'bullets',
-  //     clickable: true
-  //   },
-  //   breakpoints: {
-  //     320: {
-  //       slidesPerView: 1,
-  //       spaceBetween: 20
-  //     },
+  new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
 
-  //     1200: {
-  //       slidesPerView: 3,
-  //       spaceBetween: 20
-  //     }
-  //   }
-  // });
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
 
   /**
    * Animation on scroll

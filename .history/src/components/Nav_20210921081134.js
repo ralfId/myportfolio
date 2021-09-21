@@ -8,6 +8,7 @@ export const Nav = () => {
   return (
     <>
 
+      {/* <i className={`bi bi-list mobile-nav-toggle d-xl-none ${!isToggle ? "bi-list": "bi-x"} } `} onClick={toggleNavMob}></i> */}
       <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
 
       <header id="header">
@@ -25,9 +26,9 @@ export const Nav = () => {
           </div>
           <nav id="navbar" className="nav-menu navbar">
             <ul>
-              <li><Link to="/index" className="nav-link  active"><i className="bx bx-home"></i> <span>Home</span></Link></li>
-              <li><Link to="/about" className="nav-link "><i className="bx bx-user"></i> <span>About</span></Link></li>
-              <li><Link to="/portfolio" className="nav-link "><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
+              <li><Link to="/index" className="nav-link scrollto active"><i className="bx bx-home"></i> <span>Home</span></Link></li>
+              <li><Link to="/about" className="nav-link scrollto"><i className="bx bx-user"></i> <span>About</span></Link></li>
+              <li><Link to="/portfolio" className="nav-link scrollto"><i className="bx bx-book-content"></i> <span>Portfolio</span></Link></li>
             </ul>
           </nav>
         </div>

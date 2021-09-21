@@ -18,7 +18,7 @@ export const AppRouter = () => {
     return (
         <Router>
             <Nav />
-            <div id="main" className="min-vh-100">
+            <div id="main">
                 <Switch>
                     <Route exact path="/index" component={Home} />
                     <Route exact path="/about" component={About}/>

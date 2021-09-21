@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Home = () => {
     return (
+        <>
             <section id="hero" className="d-flex flex-column justify-content-center align-items-center">
                 <div className="hero-container" data-aos="fade-in">
                    <h1>Rafael Ibañez Diego</h1>
@@ -22,5 +23,6 @@ export const Home = () => {
                     </button>
                 </div>
             </section>
+        </>
     )
 }

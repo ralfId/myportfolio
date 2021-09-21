@@ -3,7 +3,7 @@ import React from 'react';
 export const Footer = ()=>{
     return(
         
-      <footer id="footer" className="fixed-bottom">
+      <footer id="footer" className="mt-auto">
       <div className="container">
         <div className="copyright">
           &copy; Copyright <strong><span>Rafael ID</span></strong>
