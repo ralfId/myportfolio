@@ -15,7 +15,7 @@ export const Home = () => {
                         I can implement and put my skills into practice.
                     </p>
                     <button className="btn btn-lg">
-                        <a href="https://drive.google.com/file/d/1vJaF_GdrEpqvxunoCtHR6NM8FIdySfaQ/view?usp=sharing"  target="_blank" rel="noreferrer">
+                        <a href="https://drive.google.com/file/d/18ohgU4yNGrFJ9oYcLQjGqPXHG__AH6Fg/view?usp=sharing"  target="_blank" rel="noreferrer">
                             Download CV  &nbsp; &nbsp;
                             <i className="bi bi-download"></i>
                         </a>
