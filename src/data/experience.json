@@ -1,0 +1,56 @@
+[
+    
+    {
+        "id": 0,
+        "Title": "",
+        "Year1": "",
+        "Year2": "",
+        "Company": "",
+        "Place": "",
+        "WorkTasks": [
+            "",
+            "",
+            ""
+        ]
+    },{
+        "id": 3,
+        "Title": "Xamarin Developer",
+        "Year1": "2022",
+        "Year2": "Mayo-Julio",
+        "Company": "Stefanini Group ",
+        "Client": "Client: WebHelp (OneLink)",
+        "Place": "Sonsonate, El Salvador",
+        "WorkTasks": [
+            "Mobile development with Xamarin Forms",
+            "Create Azure Functions with C#",
+            "Manual deployment and CI/CD of Azure Functions",
+            "Frontend development using React Js"
+        ]
+    },
+    {
+        "id": 2,
+        "Title": "Xamarin Developer",
+        "Year1": "2021",
+        "Year2": "",
+        "Company": "TOTAL SYSTEMS S.A. DE C.V. (Totaltech Mexico)",
+        "Place": "Sonsonate, El Salvador",
+        "WorkTasks": [
+            "Cross-platform mobile development with Xamarin Forms",
+            "Consume RESTful services",
+            "Creating app interfaces using XAML"
+        ]
+    },
+    {
+        "id": 1,
+        "Title": ".Net and Xamarin Forms Developer intern",
+        "Year1": "2019",
+        "Year2": "",
+        "Company": "Central American Software Services ",
+        "Place": "San Salvador, El Salvador",
+        "WorkTasks": [
+            "Mobile application development with Xamarin Forms.",
+            "Web development with ASP.Net Core MVC",
+            "Software Testing"
+        ]
+    }
+]
