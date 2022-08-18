@@ -7,9 +7,7 @@ export const CertificateItem = () => {
             {
                 certificatesItems.map(item => (
                     <div className="resume-item">
-                        
-                        <h6 className="fw-bold">{item.Title} ({item.Year})</h6>
-                        <p ><em>{item.Place}</em></p>
+                        <p ><em>{item.Title} ({item.Year}), {item.Place}</em></p>
                     </div>
                 ))
             }
