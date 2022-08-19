@@ -22,7 +22,7 @@ export const ProjectItem = () => {
                                         {
                                             (item.urlGithub) &&
                                             <div className=" d-flex ">
-                                                <a href={item.urlGithub} target="_blank">
+                                                <a href={item.urlGithub} target="_blank" rel="noreferrer" >
                                                     <button type="button" className="btn btn-labeled btn-outline-secondary" >
                                                         <span className="btn-label"><i className="bx bx-code"></i></span>Code
                                                     </button>
@@ -34,7 +34,7 @@ export const ProjectItem = () => {
                                         {
                                             (item.urlWeb) &&
                                             <div className="col d-flex align-content-center justify-content-center">
-                                                <a className=" ms-2" href={item.urlWeb} target="_blank">
+                                                <a className=" ms-2" href={item.urlWeb} target="_blank" rel="noreferrer" >
                                                     <button type="button" className="btn btn-labeled btn-outline-secondary" >
                                                         <span className="btn-label"><i className="bx bx-window-alt"></i></span>Web site
                                                     </button>
