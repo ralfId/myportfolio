@@ -13,9 +13,7 @@ export const ProjectIndex = () => {
                     <h2>Portfolio</h2>
                 </div>
                 <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-                    {
-                        projects.map(proj => (<ProjectItem key={proj.Id} {...proj} />))
-                    }
+                    <ProjectItem />
                 </div>
 
             </div>

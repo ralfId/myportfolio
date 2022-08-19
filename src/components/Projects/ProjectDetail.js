@@ -27,7 +27,6 @@ export const ProjectDetail = () => {
         techItem,
         Categ_type
     } = projectDetails;
-    console.log(Category)
 
     return (
         <div id={Id}>

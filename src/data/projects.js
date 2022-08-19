@@ -13,13 +13,25 @@
     'techItem': ['', '', '']
 }
 
-Id = 10
+Id = 12
 */
 export const projects =
     [
-        {
+        , {
+            'id': 12,
+            'Category': 'Mobile App',
+            'urlGithub': 'https://github.com/ralfId/MoviesUI',
+            'urlWeb': '',
+            'Name': 'Movies UI',
+            'image': [],
+            'Description': {
+                'descTitle': 'Xamarin Forms Application',
+                'descBody': 'Cross-platform app, displays a movie catalog, movie search and movie details. Consuming The Movie Data Base Api RESTful web service'
+            },
+            'techItem': ['', '', '']
+        }, {
             'Id': 10,
-            'Category': 'App',
+            'Category': 'Mobile App',
             'Categ_type': 'Cross-platform mobile app',
             'urlGithub': 'https://github.com/ralfId/CovidInfo',
             'urlWeb': '',
@@ -32,17 +44,17 @@ export const projects =
                 'descTitle': 'Xamarin Forms Application',
                 'descBody': 'Multi-language mobile application made with xamarin forms. You can see the statistics of the COVID19 cases in each country, the vaccination advances and the statistics worldwide',
             },
-            'techItem': ['XAMARIN FORMS', 'MVVM', 'PRISM FRAMEWORK', 'SQLITE', 'MULTIPLE LANGUAGES', 'EMBEDDED IMAGES', 'FONTS', 'API REST']
+            'techItem': ['XAMARIN FORMS', 'MVVM', 'SQLITE', 'MULTIPLE LANGUAGES', 'EMBEDDED IMAGES', 'FONTS', 'API REST', 'PRISM FRAMEWORK',]
         },
         {
             'Id': 6,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/CalendarApp',
             'urlWeb': 'https://calendar-1app.herokuapp.com',
             'Name': 'Calendar App',
             'image': [
                 'https://res.cloudinary.com/dvupfwoil/image/upload/v1631745525/PortfolioImages/Web/calendarapp/calendarappCover_fcovj5.png',
-                
+
             ],
             'Description': {
                 'descTitle': 'React JS Application',
@@ -52,20 +64,20 @@ export const projects =
         },
         {
             'Id': 7,
-            'Category': 'web',
+            'Category': 'Backend',
             'urlGithub': 'https://github.com/ralfId/CalendarApp-Backend',
             'urlWeb': 'https://calendar-1app.herokuapp.com/login',
-            'Name': 'CalendarApp Web API',
+            'Name': 'CalendarApp',
             'image': ['https://res.cloudinary.com/dvupfwoil/image/upload/v1631748714/PortfolioImages/Web/calendarapp/webapiCover_qnrcpu.png'],
             'Description': {
-                'descTitle': 'Node JS Web API',
+                'descTitle': 'Node JS',
                 'descBody': 'Backend for the Calendar application, built with Node JS, Mongoose, Mondo DB. Using authentication, password encryption, JWT, user CRUD, CRUD event.'
             },
             'techItem': ['NODE JS', 'EXPRESS', 'MONGO DB', 'JWT']
         },
         {
             'Id': 8,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/OnlineCourses-Front',
             'urlWeb': 'https://wizardly-darwin-accb9c.netlify.app/',
             'Name': 'Online Courses',
@@ -78,20 +90,20 @@ export const projects =
         },
         {
             'Id': 9,
-            'Category': 'Web',
+            'Category': 'Backend',
             'urlGithub': 'https://github.com/ralfId/OnlineCourses-.Net5',
             'urlWeb': '',
-            'Name': 'Online Courses Web API',
+            'Name': 'Online Courses',
             'image': ['https://res.cloudinary.com/dvupfwoil/image/upload/v1631750002/PortfolioImages/Web/coursesonlineapp/webapicover_o5fwl0.png'],
             'Description': {
-                'descTitle': 'ASP.NET Core 5 Web API',
+                'descTitle': 'ASP.NET Core 5',
                 'descBody': 'Web api built with ASP.NET Core 5, using the CQRS pattern with MediatR, with Entity Framework, Dapper (implemented for learning purposes), stored procedures, JWT, user authentication, Dto classes and more. SQL Server was used as the database engine'
             },
             'techItem': ['ASP.NET CORE 5', 'CQRS', 'MEDIATR', 'JWT', 'ENTITY FRAMEWORK', 'SAFETY ROLES', 'DAPPER', 'STORE PROCEDURES', 'PDF FILES', 'DTOs', 'DB CODE FIRST']
         },
         {
             'Id': 4,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/JournalApp',
             'urlWeb': 'https://ralfid.github.io/JournalApp/',
             'Name': 'Journal App',
@@ -104,7 +116,7 @@ export const projects =
         },
         {
             'Id': 5,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/HeroApp',
             'urlWeb': '',
             'Name': 'Hero App',
@@ -117,20 +129,20 @@ export const projects =
         },
         {
             'Id': 3,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/Gif_Finder_App',
             'urlWeb': 'https://ralfid.github.io/Gif_Finder_App/',
             'Name': 'Gift Finder',
             'image': ['https://res.cloudinary.com/dvupfwoil/image/upload/v1631751797/PortfolioImages/Web/GifFinder/GifFiderCovers_abishz.png'],
             'Description': {
                 'descTitle': 'React JS Application',
-                'descBody': 'Application to search gift'
+                'descBody': 'Application to search gift using the giphy api'
             },
             'techItem': ['HTML', 'CSS', 'React JS']
         },
         {
             'Id': 1,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/CodecademyMyDEV/companyhomepage',
             'urlWeb': 'https://codecademymydev.github.io/companyhomepage/',
             'Name': 'Company Home Page',
@@ -144,7 +156,7 @@ export const projects =
         },
         {
             'Id': 2,
-            'Category': 'Web',
+            'Category': 'Frontend',
             'urlGithub': 'https://github.com/CodecademyMyDEV/coffeclub',
             'urlWeb': 'https://codecademymydev.github.io/coffeclub/',
             'Name': 'Coffe Club',
