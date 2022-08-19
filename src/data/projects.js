@@ -1,5 +1,5 @@
 /*
-,{
+{
     'id': 0,
     'Category': '',
     'urlGithub': '',
@@ -17,7 +17,7 @@ Id = 12
 */
 export const projects =
     [
-        , {
+        {
             'id': 12,
             'Category': 'Mobile App',
             'urlGithub': 'https://github.com/ralfId/MoviesUI',

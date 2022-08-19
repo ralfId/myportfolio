@@ -1,6 +1,4 @@
 import React from 'react';
-
-import { projects } from '../../data/projects'
 import{ProjectItem} from '../Projects/ProjectItem'
 
 export const ProjectIndex = () => {
