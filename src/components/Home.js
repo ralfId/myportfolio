@@ -14,9 +14,16 @@ export const Home = () => {
                         I want to expand my professional career by joining your team as a Jr. developer where
                         I can implement and put my skills into practice.
                     </p>
+                    <button className="btn btn-lg me-2">
+                        <a href="https://drive.google.com/file/d/1IySFU30_59BW8qI8htdk_EsOi_3X1XD6/view?usp=sharing"  target="_blank" rel="noreferrer">
+                            Resume ES  &nbsp; &nbsp;
+                            <i className="bi bi-download"></i>
+                        </a>
+                    </button>
+
                     <button className="btn btn-lg">
-                        <a href="https://drive.google.com/file/d/18ohgU4yNGrFJ9oYcLQjGqPXHG__AH6Fg/view?usp=sharing"  target="_blank" rel="noreferrer">
-                            Download CV  &nbsp; &nbsp;
+                        <a href="https://drive.google.com/file/d/1SAsVOyUXNEwKg9K6LPoFR1YBLt9ph5zS/view?usp=sharing"  target="_blank" rel="noreferrer">
+                            Resume EN  &nbsp; &nbsp;
                             <i className="bi bi-download"></i>
                         </a>
                     </button>
