@@ -18,6 +18,30 @@ Id = 12
 export const projects =
     [
         {
+            'id': 14,
+            'Category': 'Mobile App',
+            'urlGithub': 'https://github.com/ralfId/MAUINewsApp',
+            'urlWeb': '',
+            'Name': 'MAUI News App',
+            'image': [],
+            'Description': {
+                'descTitle': 'MAUI Application',
+                'descBody': 'Simple news UI built with MAUI, consuming the gnews.io API'
+            },
+            'techItem': ['', '', '']
+        },{
+            'id': 13,
+            'Category': 'Mobile App',
+            'urlGithub': 'https://github.com/ralfId/MemoryGame',
+            'urlWeb': '',
+            'Name': 'Memory Game',
+            'image': [],
+            'Description': {
+                'descTitle': 'Xamarin Forms Application',
+                'descBody': 'It is a memory game, using the PokeApi. You can play in 3 different levels.'
+            },
+            'techItem': ['', '', '']
+        },{
             'id': 12,
             'Category': 'Mobile App',
             'urlGithub': 'https://github.com/ralfId/MoviesUI',
