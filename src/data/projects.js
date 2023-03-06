@@ -74,7 +74,7 @@ export const projects =
             'Id': 6,
             'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/CalendarApp',
-            'urlWeb': 'https://calendar-1app.herokuapp.com',
+            'urlWeb': '',
             'Name': 'Calendar App',
             'image': [
                 'https://res.cloudinary.com/dvupfwoil/image/upload/v1631745525/PortfolioImages/Web/calendarapp/calendarappCover_fcovj5.png',
@@ -90,7 +90,7 @@ export const projects =
             'Id': 7,
             'Category': 'Backend',
             'urlGithub': 'https://github.com/ralfId/CalendarApp-Backend',
-            'urlWeb': 'https://calendar-1app.herokuapp.com/login',
+            'urlWeb': '',
             'Name': 'CalendarApp',
             'image': ['https://res.cloudinary.com/dvupfwoil/image/upload/v1631748714/PortfolioImages/Web/calendarapp/webapiCover_qnrcpu.png'],
             'Description': {
