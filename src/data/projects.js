@@ -103,7 +103,7 @@ export const projects =
             'Id': 8,
             'Category': 'Frontend',
             'urlGithub': 'https://github.com/ralfId/OnlineCourses-Front',
-            'urlWeb': 'https://wizardly-darwin-accb9c.netlify.app/',
+            'urlWeb': '',
             'Name': 'Online Courses',
             'image': ['https://res.cloudinary.com/dvupfwoil/image/upload/v1631749457/PortfolioImages/Web/coursesonlineapp/ProjectCovers_hk60au.png'],
             'Description': {
